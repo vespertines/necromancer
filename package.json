@@ -1,0 +1,19 @@
+{
+  "name": "Necromancer",
+  "version": "0.0.1",
+  "description": "Another Starter Theme for WordPress",
+  "author": "Kwang-Su Kim <atelier.jullian@gmail.com>",
+  "private": true,
+  "scripts": {
+    "serve": "sass --no-source-map scss/style.scss style.css -w & serve src",
+    "build": "sass --no-source-map scss/style.scss style.css",
+    "export": "sass --no-source-map scss/style.scss style.css && yarn prepare:asset",
+    "lint": "prettier --write .",
+    "test": "sass --no-source-map scss/style.scss style.css -w & serve src"
+  },
+  "dependencies": {
+    "prettier": "2.6.1",
+    "sass": "1.49.10",
+    "serve": "13.0.2"
+  }
+}
